@@ -21,3 +21,7 @@ jobs:
       - name: Build using Maven
         run: mvn clean install
         working-directory: demo
+        
+      - name: Run Application
+        run: mvn exec:java
+        working-directory: demo
