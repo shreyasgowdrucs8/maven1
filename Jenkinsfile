@@ -9,7 +9,7 @@ pipeline {
     stages {
        stage('CHECKOUT') { 
             steps { 
-                git 'your_github_repo_link' 
+                git 'https://github.com/shreyasgowdrucs8/maven1.git' 
             } 
         } 
  
