@@ -1,11 +1,6 @@
 
 package com.example;
-
-/**
- * Hello world!
- *
- */
-public class App 
+public class Hi 
 {
     public static void main( String[] args )
     {
